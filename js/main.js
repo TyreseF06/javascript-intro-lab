@@ -30,3 +30,7 @@ blueBtn.addEventListener("click", function(){
     document.body.setAttribute("class", "blueBack");
 })
 
+let resetBtn = document.querySelector(".reset");
+resetBtn.addEventListener("click", function(){
+    document.body.removeAttribute("class");
+})
